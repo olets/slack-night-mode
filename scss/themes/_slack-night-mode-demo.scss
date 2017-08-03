@@ -2,17 +2,44 @@
 // author: "Henry Bley-Vroman (https://github.com/olets)"
 
 // Theme Colors
-$color-base: red;
-$color-highlight: yellow;
+$color-base:             red;   // main pane, ends of scrollbar handles,
+                                // active channel in sidebar, hovered channel in sidebar
+$color-highlight:        yellow;// in the main pane:
+                                //    phone, info, gear, loupe, clear-the-search x,
+                                //    today,
+                                //    `+` to add attachments,
+                                //    star on hovered message, webpage preview titles, "edited"
+                                // in the sidebar:
+                                //    "find a channel" button, `#` on active channel
+                                // in the file browser: all text except file titles
 
-$color-shade-darkest: blue;
-$color-shade-dark: green;
-$color-shade-mid: white;
-$color-shade-light: black;
-$color-shade-lightest: pink;
+$color-shade-darkest:    blue;  // background for fenced code,
+                                // background for other people's reactions,
+                                // background for non-scrolling part of emoji picker
+                                // background for "more unreads"
+$color-shade-dark:       green; // sidebar background,
+                                // file browser hovered file border,
+                                // message action buttons borders,
+                                // message actions contextual menu background,
+                                // active message action buttons background,
+                                // background of thread button when message actions buttons block is hovered,
+                                // background for "..." menu
+$color-shade-mid:        white; // message entry field border
+$color-shade-light:      black; // message entry field background,
+                                // scrollbar handle,
+                                // search field border,
+                                // quote left border,
+                                // embed left border
+$color-shade-lightest:   pink;
 
 // Font Colors
-$base-font-color: purple;
+$base-font-color:        purple;// text
 
-$base-link-color: grey;
-$base-link-color-active: brown;
+$base-link-color:        grey;  // dates,
+                                // active/hovered search field border,
+                                // "1 reply" thread notes
+                                // message action button icons
+                                // "so-and-so is typing"
+                                // border of `code` and ```fenced code```
+
+$base-link-color-active: brown; // hovered links
